@@ -8,7 +8,7 @@ for(i=0;i<3;i++){
         scanf("%d",&a[i][j]);
         }
 }
-printf("your matrix is:1 \n");
+printf("your matrix is:\n");
 for(i=0;i<3;i++){
     for(j=0;j<3;j++){
         printf("%d ",a[i][j]);
@@ -23,4 +23,5 @@ a3=a[0][2]*(a[1][0]*a[2][1]-a[1][1]*a[2][0]);
 det=a1-a2+a3; 
 
 printf("your determinant is %d",det);
+return 0;
 }
