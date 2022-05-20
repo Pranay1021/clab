@@ -2,7 +2,7 @@
 #include <stdio.h>
 int letter(char a[]);
 int main(){
- char a[15]="i am a god";
+ char a[15]="i am a god ";
  int ans;
  printf("%s \n",a);
  ans=letter(a);
